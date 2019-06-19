@@ -1,5 +1,3 @@
-
-
 $(function() {
   $(".toggleh2").bind("click", function() {
     $(this)
