@@ -1,9 +1,12 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    /* min-height: 100vh; */
+    flex-flow: column;
 }
 
 .pink {
-  color: lawngreen;
+  color: pink;
 }
 
 //BOXES 
@@ -13,18 +16,19 @@ body {
 }
 
 .box {
-  height: 50px;
-  width: 50px;
+  height: 120px;
+  width: 120px;
   text-align: center;
   line-height: 50px;
   border-radius: 3px;
   margin-right: 20px;
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
   float: left;
   background-color: rgb(238, 56, 56);
   position: relative;
+  
 }
 
 .box:nth-child(1) {
@@ -47,17 +51,23 @@ body {
   background-color: rgb(252, 175, 175);
 }
 
+.boxes2 {
+    height: 550px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
 .box2 {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   line-height: 50px;
   border-radius: 3px;
   margin-right: 20px;
   color: #fff;
+  float: left;
   font-size: 24px;
   font-weight: 300;
-  float: left;
   background-color: rgb(238, 56, 56);
   position: relative;
 }
