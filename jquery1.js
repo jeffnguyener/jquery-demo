@@ -5,3 +5,4 @@ $(function() {
       .removeClass('blue');
   });
 });
+

@@ -1,4 +1,43 @@
 .pink {
-    color: pink
+  color: pink;
 }
 
+.boxes {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 3px;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  float: left;
+  background-color: hsla(44, 85%, 58%, 1);
+  position: relative;
+}
+
+.box:nth-child(1) {
+  background-color: hsla(40, 85%, 58%, 1);
+}
+
+.box:nth-child(2) {
+  background-color: hsla(36, 87%, 58%, 1);
+}
+
+.box:nth-child(3) {
+  background-color: hsla(32, 87%, 58%, 1);
+}
+
+.box:nth-child(4) {
+  background-color: hsla(28, 87%, 58%, 1);
+}
+
+.box:nth-child(5) {
+  background-color: hsla(24, 87%, 58%, 1);
+}
