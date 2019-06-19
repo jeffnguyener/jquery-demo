@@ -1,7 +1,8 @@
 .pink {
-  color: pink;
+  color: lawngreen;
 }
 
+//BOXES 
 .boxes {
   height: 50px;
   margin-bottom: 20px;
@@ -18,26 +19,26 @@
   font-size: 24px;
   font-weight: 300;
   float: left;
-  background-color: hsla(44, 85%, 58%, 1);
+  background-color: rgb(238, 56, 56);
   position: relative;
 }
 
 .box:nth-child(1) {
-  background-color: hsla(40, 85%, 58%, 1);
+  background-color: rgb(255, 77, 77);
 }
 
 .box:nth-child(2) {
-  background-color: hsla(36, 87%, 58%, 1);
+  background-color: rgb(255, 91, 91);
 }
 
 .box:nth-child(3) {
-  background-color: hsla(32, 87%, 58%, 1);
+  background-color: rgb(255, 130, 130);
 }
 
 .box:nth-child(4) {
-  background-color: hsla(28, 87%, 58%, 1);
+  background-color: rgb(255, 144, 144);
 }
 
 .box:nth-child(5) {
-  background-color: hsla(24, 87%, 58%, 1);
+  background-color: rgb(252, 175, 175);
 }
